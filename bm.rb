@@ -2,7 +2,7 @@ require "formula"
 
 HOMEBREW_BM_VERSION='0.0.1'
 
-class Imemo < Formula
+class Bm < Formula
   desc "manage bookmark easily on terminal"
   homepage "https://github.com/kcwebapply/bm"
   url "https://github.com/kcwebapply/bm/archive/0.0.1.tar.gz"
