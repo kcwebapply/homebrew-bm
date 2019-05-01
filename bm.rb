@@ -1,11 +1,11 @@
 require "formula"
 
-HOMEBREW_BM_VERSION='0.0.2'
+HOMEBREW_BM_VERSION='1.0.0'
 
 class Bm < Formula
   desc "manage bookmark easily on terminal"
   homepage "https://github.com/kcwebapply/bm"
-  url "https://github.com/kcwebapply/bm/archive/0.0.2.tar.gz"
+  url "https://github.com/kcwebapply/bm/archive/1.0.0.tar.gz"
   sha256 "6be2b77365f2ae3cad5a4af58fbdc03728fbaaeff821114cec25c29f3a94ddbd"
 
   depends_on "dep" => :build
