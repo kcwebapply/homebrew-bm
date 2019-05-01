@@ -14,10 +14,10 @@ class Bm < Formula
   def install
     print buildpath
     ENV["GOPATH"] = buildpath
-    imemo_path = buildpath/"src/github.com/kcwebapply/bm/"
-    imemo_path.install buildpath.children
+    bm_path = buildpath/"src/github.com/kcwebapply/bm/"
+    bm_path.install buildpath.children
 
-    cd imemo_path do
+    cd bm_path do
       system "dep", "ensure", "-vendor-only"
       system "go", "build"
       bin.install "bm"
